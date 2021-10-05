@@ -1,0 +1,147 @@
+body{
+    background-color:#f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+.nav-item {
+    margin-right: 150px;
+}
+  
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-container p:nth-child(2){ 
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+    
+}
+
+.photo{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 100%;
+    transform: translateX(-70%);
+}
+
+
+
+img{
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    height: 80vh;
+    right: 40%;
+}
+
+.content{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+ 
+h1{
+    font-family:'Cinzel', serif;;
+    text-align: center;
+    font-size: 50px;
+}
+  
+
+#main{
+    border: 2px solid;
+    text-align: center;
+}
+
+#main1{
+    font-family:'Cinzel', serif;;
+    text-align: center;
+}
+
+#main2{
+    font-family:'Cinzel', serif;;
+    text-align: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-vk {
+    background: #3B5998;
+    color: white;
+}
+
+
+#main_1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img{
+    text-align: center;
+    height: 100px;
+}
